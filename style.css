@@ -1,0 +1,18 @@
+
+
+/* #1b357e
+#1351d8 */
+
+.centralizado {
+    align-items: center;
+}
+.rodape{
+    background-color: #1b357e;
+    color: #ffffff;
+}
+.video-container{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
