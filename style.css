@@ -7,6 +7,8 @@
     align-items: center;
 }
 .rodape{
+    display: flex;
+    justify-content: center;
     background-color: #1b357e;
     color: #ffffff;
 }
@@ -15,4 +17,16 @@
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     height: 100vh; /* Full viewport height */
+}
+#video-c{
+    width: 50%;
+    position: fixed;
+    background: url () no-repeat;
+    z-index: -1000
+    background-color: #1b357e;
+    padding-inline: 30em;
+}
+
+.img-copyright{
+    position: fixed;
 }
