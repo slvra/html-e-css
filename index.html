@@ -8,12 +8,27 @@
 </head>
 <body>
     <header>
-        <img src="img\logo-ford-256.png" alt="logo-ford-256">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="release.html">Lançamento</a>
-            <a href="contact.html">Contato</a>
+        <nav class="menu">
+            <div class="logo">
+                <img src="img\logo-ford-256.png" alt="logo-ford-256">
+            </div>
+            <ul class="itens-menu">
+                <li><a class="header-nav-item" href="index.html">Home</a></li>
+                <li><a class="header-nav-item" href="release.html">Lançamento</a></li>
+                <li><a class="header-nav-item" href="contact.html">Contato</a></li>
+            </ul>
         </nav>
+
+
+        <!-- <nav >
+        <img src="img\logo-ford-256.png" alt="logo-ford-256">
+        
+            <ul class="header-nav">
+                <li><a class="header-nav-item" href="index.html">Home</a></li>
+                <li><a class="header-nav-item" href="release.html">Lançamento</a></li>
+                <li><a class="header-nav-item" href="contact.html">Contato</a></li>
+            </ul> 
+        </nav> -->
     </header>
 
     <main>
@@ -21,12 +36,12 @@
             <img src="img\imagem_1.jpg" alt="imagem principal">
         </section>
         <section>
-            <p>Esta é a nova Ranger 2022. Verifique novidades <a>aqui</a>.</p>
+            <p>Esta é a nova Ranger 2022. Verifique novidades <a href="">aqui</a>.</p>
         </section>
     </main>
 
     <footer class="rodape">
-        <section>
+        <section class="rodape-socialmedia">
             <p>Redes Sociais</p>
             <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR">
                 <img src="img\facebook-50.png" alt="Facebook">
@@ -37,12 +52,9 @@
             <a href="https://www.instagram.com/fordbrasil/">
                 <img src="img\instagram-logo-50.png" alt="Instagram">
             </a>
+            <p>&copy;</p>
+            <img class="rodape-copyright-img" src="img\ford-96.png" alt="Copyright">
         </section>
-        <section class="img-copyright">
-            <img src="img\ford-96.png" alt="Copyright">
-
-        </section>
-
     </footer>
 </body>
 </html>
