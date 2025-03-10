@@ -8,16 +8,16 @@
 </head>
 <body>
     <header>
-        <nav class="menu">
-            <div class="logo">
-                <img src="img\logo-ford-256.png" alt="logo-ford-256">
-            </div>
-            <ul class="itens-menu">
-                <li><a class="header-nav-item" href="index.html">Home</a></li>
-                <li><a class="header-nav-item" href="release.html">Lançamento</a></li>
-                <li><a class="header-nav-item" href="contact.html">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="header-box">
+            <img src="img\logo-ford-256.png" alt="logo-ford-256">
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li><a class="header-nav-item" href="index.html">Home</a></li>
+                    <li><a class="header-nav-item" href="release.html">Lançamento</a></li>
+                    <li><a class="header-nav-item" href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
 
 
         <!-- <nav >
@@ -40,9 +40,10 @@
         </section>
     </main>
 
-    <footer class="rodape">
-        <section class="rodape-socialmedia">
-            <p>Redes Sociais</p>
+    <footer>
+        <p>Redes Sociais</p>
+
+        <div>
             <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR">
                 <img src="img\facebook-50.png" alt="Facebook">
             </a>
@@ -52,9 +53,15 @@
             <a href="https://www.instagram.com/fordbrasil/">
                 <img src="img\instagram-logo-50.png" alt="Instagram">
             </a>
-            <p>&copy;</p>
-            <img class="rodape-copyright-img" src="img\ford-96.png" alt="Copyright">
-        </section>
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; 2025 Ford Brasil | Todos os direitos reservados</p>
+        </div>
+        
+        <div>
+            <img class="footer-logo" src="img\ford-96.png" alt="Copyright">
+        </div>
     </footer>
 </body>
 </html>
