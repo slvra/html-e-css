@@ -60,16 +60,92 @@ main{
 }
 
 main img{
-    max-width: 75%;
+    /* position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%; */
+    max-width: 80%;
     height: auto;
     margin-top: 20px;
 }
 
 main p{
     margin-top: 10px;  
-    font-size: small;   
+    font-size: small;
+    /* position: absolute;
+    transform: translate(-50%, -90%);
+    top: 90%;
+    left:50%;    */
 }
-    
+
+.footer-socialMedia-img{
+    width: 40px;
+}
+
+/* <ESTILOS DA PÁGINA RELEASE> */
+.release-main-descriptionBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.release-main-descriptionBox-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: #1351d8;
+}
+
+.img-info{
+    height: 20px;
+    width: auto;
+}
+
+.tabela-container{
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto; /*para nao vazar da tela caso seja mt grande */
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse; /*pode usar separete para deixar um espaço entre as células*/
+    margin-top: 20px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+table img{
+    width: 200px;
+    height: auto;
+}
+
+table input{
+    transform: scale(1.5);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.main-button{
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #1351d8;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font: 16px;
+    border-radius: 5px;
+}
+/* </ESTILOS DA PÁGINA RELEASE> */
+
+
 footer{
     background-color: #1b357e;
     color: white;
@@ -100,13 +176,18 @@ footer{
     width: auto;
 }
 
+
 @media (max-width: 768px){
+    .header-logo{
+        height: 4vh;
+        width: auto;
+    }
     main img{
         max-width: 90%;
     }
 
     header{
-        font-size: small;
+        font-size: 5px;
     }
 
     .header-list{
@@ -115,5 +196,9 @@ footer{
 
     .header-nav-item{
         margin-left: 10px;
+    }
+
+    .footer-socialMedia-img{
+        height: 4vh;
     }
 }

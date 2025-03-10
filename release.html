@@ -8,48 +8,98 @@
 </head>
 <body>
     <header>
-        <div>
+        <div class="header-box">
+            <img class="header-logo" src="img\logo-ford-256.png" alt="logo-ford-256">
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li><a class="header-nav-item" href="index.html">Home</a></li>
+                    <li><a class="header-nav-item" href="release.html">Lançamento</a></li>
+                    <li><a class="header-nav-item" href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- <div>
             <img src="img\logo-ford-256.png" alt="logo-ford-256">
         </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="release.html">Lançamento</a>
             <a href="contact.html">Contato</a>
-        </nav>
+        </nav> -->
     </header>
 
     <main>
-        <section>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vQsryuNmsL0?si=ckEZkptGNxwFPdG1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-container">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/vQsryuNmsL0?si=ckEZkptGNxwFPdG1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </div>
+            <div class="tabela-container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="img\XL Cabine.jpg" alt="XL Cabine1">
+                                <div class="release-main-descriptionBox">
+                                    <input type="checkbox">
+                                    <div>
+                                        <p class="release-main-descriptionBox-content">XL Cabine Simples 2.2 Diesel<br> 4x4 C/P 2022</p>
+                                        <p>Preço sob consulta</p>
+                                    </div>
+                                    <img class="img-info" title="qualqeur adjfba" src="img/info.png" alt="info">
+                                </div>        
+                            </td>
+
+                            <td>
+                                <img src="img/xls 2.2 diesel.jpg" alt="XLS 2.2 diesel">
+                                <div class="release-main-descriptionBox">
+                                    <input type="checkbox">
+                                    <div>
+                                        <p class="release-main-descriptionBox-content">XLS 2.2 Diesel 4x4 AT 2022</p>
+                                        <p>Preço sob consulta</p>
+                                    </div>
+                                    <img class="img-info" title="qualqeur adjfba" src="img/info.png" alt="info">
+                                </div> 
+                            </td>
+
+                            <td>
+                                <img src="img/storm.jpg" alt="Storm 3.2">
+                                <div class="release-main-descriptionBox">
+                                    <input type="checkbox">
+                                    <div>
+                                        <p class="release-main-descriptionBox-content">Storm 3.2 Diesel 4x4 AT 2022</p>
+                                        <p>Preço sob consulta</p>
+                                    </div>
+                                    <img class="img-info" title="qualqeur adjfba" src="img/info.png" alt="info">
+                                </div> 
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </section>
-        <section>
-            <img src="img\XL Cabine.jpg" alt="XL Cabine">
-            <p>Colocar checkbox</p>
-        </section>
-        <button class="botao-compara">Comparar Carros</button>
+        <div>
+            <button class="main-button">Comparar Carros</button>
+        </div>
     </main>
 
     <footer>
         <p>Redes Sociais</p>
-        <div class="footer-socialMedia">
-            <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR">
-                <img src="img\facebook-50.png" alt="Facebook">
+
+        <div>
+            <a class="footer-socialMedia" href="https://www.facebook.com/FordBrasil/?locale=pt_BR">
+                <img class="footer-socialMedia-img" src="img\facebook-50.png" alt="Facebook">
             </a>
-            <a href="https://www.youtube.com/fordbrasil">
-                <img src="img\youtube-squared-50.png" alt="Youtube">
+            <a class="footer-socialMedia" href="https://www.youtube.com/fordbrasil">
+                <img class="footer-socialMedia-img" src="img\youtube-squared-50.png" alt="Youtube">
             </a>
-            <a href="https://www.instagram.com/fordbrasil/">
-                <img src="img\instagram-logo-50.png" alt="Instagram">
+            <a class="footer-socialMedia" href="https://www.instagram.com/fordbrasil/">
+                <img class="footer-socialMedia-img" src="img\instagram-logo-50.png" alt="Instagram">
             </a>
         </div>
-        <div class="footer-copyright">
-            <p>&copy; 2025 Ford Brasil | Todos os direitos reservados</p>
-        </div>
-        <div class="footer-logo">
-            <img src="img\ford-96.png" alt="Copyright">
-        </div>
+
+            <p class="footer-copyright">&copy; 2025 Ford Brasil | Todos os direitos reservados</p>
+            <img class="footer-logo" src="img\ford-96.png" alt="Copyright">
+
     </footer>
 </body>
 </html>
