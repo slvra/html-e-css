@@ -206,3 +206,20 @@ footer{
 
 
 /* https://cursos.alura.com.br/extra/alura-mais/transformando-um-site-em-responsivo-c1601 */
+
+.main-content{
+    width: 700px;
+    display: flex;
+    
+}
+
+footer p{
+    margin-right: 10px;
+}
+
+.pop-button{
+    border: none;
+    height: 20px;
+    width: auto;
+    margin: 0;
+}
