@@ -50,8 +50,7 @@ table {
 }
 
 
-
-/* ESTILO */
+/* _________________________________ESTILOS GERAIS E ESTRUTURAS COMUNS*/
 
 body{
     font-family: "Montserrat", Helvetica, sans-serif;
@@ -59,6 +58,10 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
+
+
+
+/* _________ HEADER */
 
 header{
     padding: 15px;
@@ -77,13 +80,14 @@ header{
     transform: translateX(-50%);
 }
 
+
 .header-list{
     margin-left: 30px;
-    font-weight: 500;
+    font-weight: 550;
     list-style: none;
     display: flex;
     gap: 30px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .header-logo{
@@ -95,6 +99,14 @@ header{
     color: #1351d8;
     text-decoration: none;
 }
+
+.header-nav-item:hover{
+    color: #06064d;
+    transform: scale(1.2);
+}
+
+
+/* ____________________________________________________MAIN */
 
 main{
     flex: 1;
@@ -114,80 +126,16 @@ main img{
 
 main p{
     margin-top: 10px;  
-    font-size: small;
+    font-size: 1rem;
     /* position: absolute;
     transform: translate(-50%, -90%);
     top: 90%;
     left:50%;    */
 }
 
-.footer-socialMedia-img{
-    width: 40px;
-}
 
-/* <ESTILOS DA PÁGINA RELEASE> */
-.release-main-descriptionBox{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 
-}
-
-.release-main-descriptionBox-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    color: #1351d8;
-}
-
-.img-info{
-    height: 20px;
-    width: auto;
-}
-
-.tabela-container{
-    max-width: 1000px;
-    margin: auto;
-    overflow-x: auto; /*para nao vazar da tela caso seja mt grande */
-}
-
-table{
-    width: 100%;
-    border-collapse: collapse; /*pode usar separete para deixar um espaço entre as células*/
-    margin-top: 20px;
-}
-
-td{
-    padding: 10px;
-    text-align: center;
-}
-
-table img{
-    width: 200px;
-    height: auto;
-}
-
-table input{
-    transform: scale(1.5);
-    margin: 10px;
-    cursor: pointer;
-}
-
-.main-button{
-    display: block;
-    width: 200px;
-    padding: 10px;
-    margin: 20px auto;
-    background-color: #1351d8;
-    color: white;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    font: 16px;
-    border-radius: 5px;
-}
-/* </ESTILOS DA PÁGINA RELEASE> */
-
+/* _________ FOOTER */
 
 footer{
     background-color: #1b357e;
@@ -209,6 +157,10 @@ footer p{
     width: auto;
 }
 
+.footer-socialMedia-img{
+    width: 40px;
+}
+
 .footer-copyright{
     position: absolute;
     left: 50%;
@@ -225,6 +177,44 @@ footer p{
 }
 
 
+
+
+
+/* <ESTILOS DA PÁGINA RELEASE> */
+.release-main-descriptionBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.release-main-descriptionBox-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: #1351d8;
+}
+
+
+
+.main-button{
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #1351d8;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font: 16px;
+    border-radius: 5px;
+}
+/* </ESTILOS DA PÁGINA RELEASE> */
+
+
+
+
 /* https://cursos.alura.com.br/extra/alura-mais/transformando-um-site-em-responsivo-c1601 */
 
 .main-content{
@@ -233,9 +223,7 @@ footer p{
     
 }
 
-footer p{
-    margin-right: 10px;
-}
+
 
 .pop-button{
     border: none;

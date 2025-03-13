@@ -1,10 +1,21 @@
+/* _________________________________MEDIA QUERYS*/
+
 @media (max-width: 768px){
+    .header-list{
+        gap: 18px;
+        font-size: 0.8rem;
+    }
     .header-logo{
         height: 4vh;
         width: auto;
     }
     main img{
         max-width: 90%;
+    }
+
+    main iframe{
+        max-width: 90%;
+        height: 35vh;
     }
 
     header{
@@ -38,3 +49,31 @@
         display: none;
     }
 }
+
+
+/* ________________________________________________ FORM */
+/* @media (max-width: 768px){
+    form{
+        flex: 1;
+        display: inline;
+        flex-direction: column;
+    }
+
+    .form-box{
+        
+    }
+
+    .form-img{
+        transform: scale(0.8);
+    }
+} */
+
+
+/* @media (max-width: 768px){
+    .form-box{
+        
+    }
+    .form-img{
+        transform: scale(0.8);
+    }
+} */
