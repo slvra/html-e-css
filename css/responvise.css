@@ -1,0 +1,40 @@
+@media (max-width: 768px){
+    .header-logo{
+        height: 4vh;
+        width: auto;
+    }
+    main img{
+        max-width: 90%;
+    }
+
+    header{
+        font-size: 5px;
+    }
+
+    .header-list{
+        font-size: small;
+    }
+
+    .header-nav-item{
+        margin-left: 10px;
+    }
+
+    .footer-socialMedia-img{
+        height: 4vh;
+    }
+    footer{
+        /* flex-direction: column;
+        text-align: center;
+        gap: 10px; */
+    }
+    footer p{
+        font-size: small;
+    }
+    main img, main p{
+        max-width: 90%;
+        text-align: inherit;
+    }
+    .footer-copyright{
+        display: none;
+    }
+}
