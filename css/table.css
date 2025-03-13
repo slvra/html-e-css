@@ -1,10 +1,5 @@
 /* _________________________________ESTILOS PARA A TABELA*/
 
-.img-info{
-    height: 20px;
-    width: auto;
-}
-
 .table-container{
     max-width: 1200px;
     margin: auto;
@@ -13,7 +8,7 @@
 
 table{
     width: 100%;
-    border-collapse: collapse; /*pode usar separete para deixar um espaço entre as células*/
+    border-collapse: collapse; /*pode usar 'separete' para deixar um espaço entre as células*/
     margin-top: 20px;
 }
 
@@ -31,4 +26,9 @@ table input{
     transform: scale(1.5);
     margin: 10px;
     cursor: pointer;
+}
+
+.img-info{
+    height: 20px;
+    width: auto;
 }

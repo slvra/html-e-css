@@ -1,18 +1,14 @@
 /* _________________________________ESTILOS PARA O FORMULÁRIO*/
 
 form{
-    flex: 1;
     display: flex;
     flex-direction: column;
 }
 
-form h2{
-    margin-bottom: 5px;
-}
-
-label{
-    font-weight: bold;
-    margin-top: 5px;
+form h4{
+    align-self: flex-start;
+    padding-left: 10px;
+    font-weight: 500;
 }
 
 input, select, textarea {
@@ -27,13 +23,13 @@ input, select, textarea {
     display: flex;
     background-color: white;
     padding: 20px;
-    width: 650px;
+    width: 600px;
     gap: 20px;
     margin: auto;
 }
 
 #nome, #email, #tel, #mensagem{
-    width: 500px;
+    width: 270px;
 }
 
 .form-img{
@@ -53,6 +49,5 @@ input, select, textarea {
     cursor: pointer;
     font: 16px;
     border-radius: 10px;
-    align-items: end;
 }
 
