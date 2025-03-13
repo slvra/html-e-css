@@ -31,6 +31,9 @@
     .main-highlight-p{
         font-size: 12px;
     }
+    .main-content{
+        font-size: 0.7rem;
+    }
 
     main img, main p{
         max-width: 90%;
@@ -42,10 +45,10 @@
         height: 35vh;
     }
 
-    .main-contact{
+    /* .main-contact{
         margin: auto;
         max-width: 5vw;
-    }
+    } */
 
     table, td, tr{
         display: block;
@@ -68,27 +71,16 @@
         display: none;
     }
 
-
-}
-
-
-/* ________________________________________________ FORM */
-@media (max-width: 768px){
+    
     .form-box{
         flex-direction: column;
         align-items: center;
         width: 100%;
-        padding: 5%;
     }
     .form-img{
+        width: 70%;
+    }
+    .form-button{
         transform: scale(0.8);
     }
 }
-
-/* @media (max-width: 768px){
-    form{
-        flex: 1;
-        display: inline;
-        flex-direction: column;
-    }
-

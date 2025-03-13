@@ -1,54 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 
 /* _________________________________ESTILOS GERAIS E ESTRUTURAS COMUNS*/
 
@@ -115,10 +71,6 @@ main{
 }
 
 main img{
-    /* position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%; */
     max-width: 80%;
     height: auto;
     margin-top: 20px;
@@ -128,10 +80,6 @@ main p{
     margin-top: 10px; 
     margin-bottom: 20px; 
     font-size: 1rem;
-    /* position: absolute;
-    transform: translate(-50%, -90%);
-    top: 90%;
-    left:50%;    */
 }
 
 main h3{
@@ -147,6 +95,13 @@ main h3{
     border-radius: 15px;
 }
 
+.main-highlight-p{
+    font-size: .9rem;
+}
+
+.main-content{
+    font-size: 1.rem;
+}
 
 /* _________ FOOTER */
 
@@ -157,7 +112,6 @@ footer{
     align-items: center;
     padding: 5px 15px;
     margin-top: auto;
-    position: relative;
 }
 
 footer p{
@@ -175,15 +129,12 @@ footer p{
 }
 
 .footer-copyright{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: auto;
     font-size: 11px;
 }
 
 .footer-logo{
-    position: absolute;
-    bottom: 8px;
+    margin-left: auto;
     right: 3%;
     height: 65%;
     width: auto;
