@@ -98,11 +98,11 @@ header{
 .header-nav-item{
     color: #1351d8;
     text-decoration: none;
+    transition: font-size 0.4s;
 }
-
 .header-nav-item:hover{
     color: #06064d;
-    transform: scale(1.2);
+    font-size: 1.1rem;
 }
 
 
@@ -125,7 +125,8 @@ main img{
 }
 
 main p{
-    margin-top: 10px;  
+    margin-top: 10px; 
+    margin-bottom: 20px; 
     font-size: 1rem;
     /* position: absolute;
     transform: translate(-50%, -90%);
@@ -133,7 +134,19 @@ main p{
     left:50%;    */
 }
 
-
+main h3{
+    color:#092c78;
+    font-weight: 550;
+    display: flex;
+    text-align: justify;
+    max-width: 80%;
+    height: auto;
+    margin:auto;
+    padding: 8px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 15px;
+}
 
 
 /* _________ FOOTER */
@@ -211,24 +224,8 @@ footer p{
     font: 16px;
     border-radius: 5px;
 }
+.main-button:hover{
+    background-color: #092c78;
+}
 /* </ESTILOS DA PÁGINA RELEASE> */
 
-
-
-
-/* https://cursos.alura.com.br/extra/alura-mais/transformando-um-site-em-responsivo-c1601 */
-
-.main-content{
-    width: 700px;
-    display: flex;
-    
-}
-
-
-
-.pop-button{
-    border: none;
-    height: 20px;
-    width: auto;
-    margin: 0;
-}

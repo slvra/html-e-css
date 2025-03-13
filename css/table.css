@@ -21,6 +21,9 @@ table img{
     width: 250px;
     height: auto;
 }
+table img:hover{
+    transform: scale(1.2);
+}
 
 table input{
     transform: scale(1.5);
