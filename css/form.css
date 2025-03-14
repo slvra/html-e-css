@@ -18,14 +18,20 @@ input, select, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+.main-contact{
+    display: flex;
+}
 
 .form-box{
+    justify-content: center;
+    align-items: center;
     display: flex;
+    flex: 1;
     background-color: white;
     padding: 20px;
-    width: 600px;
+    width: 100%;
+    /* height: 80vh; */
     gap: 20px;
-    margin: auto;
 }
 
 #nome, #email, #tel, #mensagem{
@@ -33,8 +39,7 @@ input, select, textarea {
 }
 
 .form-img{
-    width: 50%;
-    height: 50%;
+    width: 350px;
 }
 
 .form-button{
@@ -50,4 +55,7 @@ input, select, textarea {
     font: 16px;
     border-radius: 10px;
 }
-
+.form-button:hover{
+    background-color: #092c78;
+    transform: scale(1.2);
+}
